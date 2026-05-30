@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Fabled</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 760px;
+    margin: 2rem auto;
+    padding: 0 1.25rem 4rem;
+    line-height: 1.6;
+    color: #1c1c1e;
+    background: #fafafa;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1a1a1c; color: #e8e8ea; }
+    a { color: #6cb4ff; }
+    table { border-color: #3a3a3d; }
+    th, td { border-color: #3a3a3d; }
+    th { background: #2a2a2d; }
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid rgba(127,127,127,0.3); padding-bottom: 0.3rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  .effective { color: #6e6e73; font-size: 0.9rem; margin-top: 0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: 0.3rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #d2d2d7; padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+  th { background: #f0f0f3; }
+  footer { margin-top: 3rem; font-size: 0.9rem; color: #6e6e73; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Fabled</h1>
+<p class="effective"><strong>Effective date:</strong> May 30, 2026</p>
+
+<p>This Privacy Policy describes how Loose Cannon Games LLC ("we", "us", "our") collects, uses, and shares your information when you use the mobile game <strong>Fabled</strong> (the "Game"). By using the Game, you agree to the terms of this policy.</p>
+
+<h2>1. Information we collect</h2>
+
+<p>We collect information you provide directly and information generated automatically as you play.</p>
+
+<h3>Account information</h3>
+<ul>
+  <li>Email address (via Google Sign-In or Apple Sign-In)</li>
+  <li>A unique user identifier assigned by Firebase Authentication</li>
+  <li>Optional display name and profile image you choose in-game</li>
+</ul>
+
+<h3>Gameplay information</h3>
+<ul>
+  <li>Your in-game progress: account level, currencies, owned characters, inventory, achievements, match history, leaderboard standings</li>
+  <li>Choices you make in-game including selected cosmetics, equipped items, and team configurations</li>
+  <li>Server-side records of in-app purchases (if any)</li>
+</ul>
+
+<h3>AI-generated content</h3>
+<ul>
+  <li>Text prompts assembled from your in-game choices and sent to AI image-generation and prompt-rewriting providers</li>
+  <li>Images those providers return, stored in our hosting bucket so they persist across devices</li>
+</ul>
+
+<h3>Diagnostic information</h3>
+<ul>
+  <li>Crash reports and basic performance telemetry via Google Firebase Crashlytics</li>
+  <li>Device model, operating system version, and Game build version, used for debugging</li>
+  <li>Anonymous, aggregated usage analytics</li>
+</ul>
+
+<h3>Bug reports you submit</h3>
+<ul>
+  <li>Any text, screenshots, prompts, or device information you choose to attach when you submit an in-Game bug report. These are delivered to our private support channel via a webhook.</li>
+</ul>
+
+<p>We do <strong>not</strong> collect: contacts, calendar, microphone audio, camera images (other than what you explicitly attach to a bug report), precise location, SMS messages, or your phone's photo library.</p>
+
+<h2>2. How we use your information</h2>
+
+<ul>
+  <li>Provide and operate the Game (save progress, run matches, deliver rewards)</li>
+  <li>Generate AI-driven cosmetic art at your request</li>
+  <li>Diagnose crashes and fix bugs</li>
+  <li>Prevent abuse, fraud, and cheating</li>
+  <li>Communicate critical service updates if needed</li>
+</ul>
+
+<p>We do <strong>not</strong> use your information for advertising, profiling for marketing, or sale to third parties.</p>
+
+<h2>3. Third-party services</h2>
+
+<p>We share limited information with the following service providers so the Game can function:</p>
+
+<table>
+  <thead>
+    <tr><th>Provider</th><th>What we share</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Firebase (Authentication, Firestore, Crashlytics, Cloud Functions, Storage)</td>
+      <td>Account ID, gameplay data, crash logs, generated images</td>
+      <td>Account management, save data, server processing, crash reporting, image hosting</td>
+    </tr>
+    <tr>
+      <td>fal.ai</td>
+      <td>Text prompts you trigger in-game</td>
+      <td>AI image generation</td>
+    </tr>
+    <tr>
+      <td>Anthropic</td>
+      <td>Text prompts you trigger in-game</td>
+      <td>AI prompt rewriting</td>
+    </tr>
+    <tr>
+      <td>Discord</td>
+      <td>Bug-report content you explicitly submit</td>
+      <td>Delivery of bug reports to our support channel</td>
+    </tr>
+    <tr>
+      <td>Google Play Billing (if you make purchases)</td>
+      <td>Purchase tokens</td>
+      <td>Payment processing</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each provider operates under its own privacy policy. We share only what is necessary for that provider to deliver its service.</p>
+
+<h2>4. Data retention and deletion</h2>
+
+<p>We retain your account data for as long as your account exists. You can delete your account at any time from within the Game's settings (Profile → Delete Account). Deletion is permanent and removes:</p>
+<ul>
+  <li>Your profile and gameplay records</li>
+  <li>Generated images stored under your account</li>
+  <li>Your authentication record</li>
+</ul>
+
+<p>Crash reports and aggregated analytics may persist in anonymized form after account deletion, as they are not tied to your personal identity.</p>
+
+<h2>5. Children's privacy</h2>
+
+<p>The Game is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has used the Game, contact us at the email below and we will delete the account.</p>
+
+<h2>6. Data security</h2>
+
+<p>We use industry-standard measures to protect your information, including encrypted transit (HTTPS), Firebase security rules to restrict access, and per-user data isolation. No system is perfectly secure; we cannot guarantee against unauthorized access.</p>
+
+<h2>7. International data transfers</h2>
+
+<p>Our service providers may process your data in countries other than your country of residence (notably the United States). By using the Game you consent to this transfer.</p>
+
+<h2>8. Your rights</h2>
+
+<p>Depending on your jurisdiction (EEA, UK, California, and others), you may have the right to:</p>
+<ul>
+  <li>Access the personal information we hold about you</li>
+  <li>Correct inaccurate information</li>
+  <li>Delete your account and associated data</li>
+  <li>Export your data in a portable format</li>
+</ul>
+
+<p>To exercise these rights, email us at the address below.</p>
+
+<h2>9. Changes to this policy</h2>
+
+<p>We may update this policy as the Game evolves. Material changes will be announced in-Game and the effective date at the top will be updated.</p>
+
+<h2>10. Contact</h2>
+
+<p>
+  <strong>Loose Cannon Games LLC</strong><br>
+  Email: <a href="mailto:loosecanongamesllc@gmail.com">loosecanongamesllc@gmail.com</a>
+</p>
+
+<footer>&copy; 2026 Loose Cannon Games LLC. All rights reserved.</footer>
+
+</body>
+</html>
