@@ -37,7 +37,7 @@
 <body>
 
 <h1>Privacy Policy for Fabled</h1>
-<p class="effective"><strong>Effective date:</strong> October 1, 2026</p>
+<p class="effective"><strong>Effective date:</strong> November 7, 2026</p>
 
 <p>This Privacy Policy describes how Loose Canon Games LLC ("we", "us", "our") collects, uses, and shares your information when you use the mobile game <strong>Fabled</strong> (the "Game"). By using the Game, you agree to the terms of this policy.</p>
 
@@ -58,6 +58,13 @@
   <li>Your in-game progress: account level, currencies, owned characters, inventory, achievements, match history, leaderboard standings</li>
   <li>Choices you make in-game including selected cosmetics, equipped items, and team configurations</li>
   <li>Server-side records of in-app purchases</li>
+</ul>
+
+<h3>Phone alerts (only if you turn them on)</h3>
+<ul>
+  <li>A notification token for each phone you play on, issued by Apple or Google so we can send alerts to that phone, with the phone's platform and the Game's build number</li>
+  <li>Which alerts you chose, such as Reimagine ready or Energy full</li>
+  <li>Your time zone offset, so alerts are not sent at night</li>
 </ul>
 
 <h3>Content other players can see</h3>
@@ -93,6 +100,7 @@
 <ul>
   <li>Provide and operate the Game (save progress, run matches, deliver rewards)</li>
   <li>Generate AI-driven cosmetic art at your request</li>
+  <li>Send the phone alerts you choose. You can turn each alert, or all of them, off in Settings or in your phone's settings.</li>
   <li>Diagnose crashes and fix bugs</li>
   <li>Prevent abuse, fraud, and cheating</li>
   <li>Communicate critical service updates if needed</li>
@@ -110,9 +118,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>Google Firebase (Authentication, Firestore, Crashlytics, Cloud Functions, Storage)</td>
-      <td>Account ID, gameplay data, crash logs, generated images</td>
-      <td>Account management, save data, server processing, crash reporting, image hosting</td>
+      <td>Google Firebase (Authentication, Firestore, Crashlytics, Cloud Functions, Storage, Cloud Messaging)</td>
+      <td>Account ID, gameplay data, crash logs, generated images, notification tokens and alert text</td>
+      <td>Account management, save data, server processing, crash reporting, image hosting, delivering phone alerts</td>
     </tr>
     <tr>
       <td>fal.ai</td>
@@ -139,6 +147,11 @@
       <td>Transaction verification data issued by Apple or Google for completed purchases</td>
       <td>Payment processing</td>
     </tr>
+    <tr>
+      <td>Apple Push Notification service (iPhone, if you turn alerts on)</td>
+      <td>The notification token and the alert text</td>
+      <td>Delivering phone alerts</td>
+    </tr>
   </tbody>
 </table>
 
@@ -151,9 +164,11 @@
   <li>Your profile and gameplay records</li>
   <li>Generated images stored under your account</li>
   <li>Your authentication record</li>
+  <li>Your notification tokens and alert choices</li>
 </ul>
 
 <p>Crash reports and aggregated analytics may persist in anonymized form after account deletion, as they are not tied to your personal identity.</p>
+<p>Turning alerts off stops them. Signing out of the Game on a phone ends that phone's alerts.</p>
 
 <h2>5. Children's privacy</h2>
 
